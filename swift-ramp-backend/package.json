@@ -4,7 +4,7 @@
   "private": true,
   "description": "SwiftRamp oracle backend \u2014 multi-provider FX rate pusher",
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "jest --runInBand",
     "test:watch": "jest --watch",
     "lint": "eslint src --ext .ts"
